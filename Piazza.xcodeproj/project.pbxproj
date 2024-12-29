@@ -208,6 +208,10 @@
 			);
 			mainGroup = 09B974EB2D2180D8004E1AB5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				09C1F8E42D2185F3008802A8 /* XCRemoteSwiftPackageReference "turbo-ios" */,
+				09C1F8E52D218632008802A8 /* XCRemoteSwiftPackageReference "strada-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 09B974F52D2180D9004E1AB5 /* Products */;
 			projectDirPath = "";
@@ -563,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		09C1F8E42D2185F3008802A8 /* XCRemoteSwiftPackageReference "turbo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hotwired/turbo-ios";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 7.0.1;
+			};
+		};
+		09C1F8E52D218632008802A8 /* XCRemoteSwiftPackageReference "strada-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hotwired/strada-ios";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = "1.0.0-beta2";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 09B974EC2D2180D8004E1AB5 /* Project object */;
 }
